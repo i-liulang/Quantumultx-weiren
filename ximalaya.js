@@ -4,13 +4,21 @@
 
 [rewrite_local]
 
-^https:\/\/mobile\.ximalaya\.com\/mobile-user\/v2\/homePage.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/ximalaya.js
+^http[s]?:\/\/.+ximalaya.+(mobile-user\/v2\/homePage|vip/v1/recommand/ts).*$ url script-response-body ximalaya.js
 
 [mitm]
 hostname= *xima*
 
 */
-var obj = JSON.parse($response.body);
+var body = $response.body;
+var url = $request.url;
+var obj = JSON.parse(body);
+
+const p1 = '/mobile-user/v2/homePage/';
+const p2 = '/vip/v1/recommand/ts';
+
+//个人页面
+if (url.indexOf(p1) != -1) {
 obj.data.nickname = "伟人破解";
 obj.data.isVip = true;
 obj.data.vipExpireTime = 32493834549000;
@@ -23,6 +31,14 @@ obj.data.mobileLargeLogo = "https://cdn-upyun-images.dushu365.com/1634740120cf7b
 obj.data.mobileSmallLogo = "https://cdn-upyun-images.dushu365.com/1634740120cf7b8f4e68d92f7c46696fc027c1681cp6ve9a";
 obj.data.mobileMiddleLogo = "https://cdn-upyun-images.dushu365.com/1634740120cf7b8f4e68d92f7c46696fc027c1681cp6ve9a";
 
+body = JSON.stringify(obj);
+}
+
+//主页会员
+if (url.indexOf(p2) != -1) {
+	delete obj.data.modules;
+	body = JSON.stringify(obj);
+}
 $done({
-    body: JSON.stringify(obj)
+	body
 });
