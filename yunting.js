@@ -3,7 +3,7 @@
 云听解锁会员付费
 
 [rewrite_local]
-^http:\/\/getway.radio.cn/app.*$ url script-response-body yunting.js
+^http:\/\/getway.radio.cn/app.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yunting.js
 
 hostname = getway.radio.cn
 
