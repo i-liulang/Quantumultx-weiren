@@ -55,10 +55,8 @@ if (url.indexOf(p3) != -1) {
 }
 //播放页面
 if (url.indexOf(p4) != -1) {
-	delete obj.data.promotionGuideInfo;
-        delete obj.paoPaoTipsInfo;
-        delete obj.promotionGuideInfo;
-        
+	delete obj.data.playpage.promotionGuideInfo;
+       
 	body = JSON.stringify(obj);
 }
 
