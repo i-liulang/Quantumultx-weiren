@@ -58,7 +58,7 @@ if (url.indexOf(p4) != -1) {
 	delete obj.data.promotionGuideInfo;
         delete obj.paoPaoTipsInfo;
         delete obj.promotionGuideInfo;
-        delete obj.paoPaoTipsInfo;
+        
 	body = JSON.stringify(obj);
 }
 
