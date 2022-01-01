@@ -9,7 +9,8 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*ximalaya*,*.zymk.cn,vip1.k
 
 #哔哩哔哩解锁大会员
 ^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/blbl.js
-^https:\/\/app\.bilibili\.com\/x\/v2\/account\/mine.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/bilibili.js
+#画质解锁
+^http[s]?:\/\/.+bilibili.+((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/bilibili.js
 
 #樊登读书
 ^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20211116v3Y5aRgEzRqwhOtwURL
