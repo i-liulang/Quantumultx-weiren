@@ -4,7 +4,7 @@ bilibili解锁画质
 
 
 
-http[s]?:\/\/.+bilibili.+((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)).*$ url script-response-body BiliHD.js
+^http[s]?:\/\/.+bilibili.+((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/bilibili.js
 
 QX MITM = *.biliapi.*, *.bilibili.*
 
