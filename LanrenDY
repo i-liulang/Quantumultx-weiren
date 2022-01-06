@@ -62,6 +62,8 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*.*,*.zymk.cn,vi
 
 
 ######----福利应用脚本----######
+杏仁直播🚗
+^http[s]?:\/\/.+((xingrend)|(xrzhuanxian)|(xrcz7812)|(xing)).+(livePayDeduct|/member/detail|/homeNotice|/message/banners|hot-data|/member/money|/deal|/pop_prop) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xrzhibo.js
 
 #pear雪梨视频🚗
 ^http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/pear.js
