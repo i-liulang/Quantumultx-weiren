@@ -1,6 +1,6 @@
 /*
 
-^http[s]?.+(ad|toutiao|taobao|sohu|ulogs).+ url script-request-header qgg.js
+^http[s]?.+(ad|toutiao|taobao|sohu|ulogs).+ url script-request-header ^http[s]?.+(ad|toutiao|taobao|sohu|ulogs).+ url script-request-header qgg.js 
 */
 
 
