@@ -1,6 +1,6 @@
 /*
 
-
+^http[s]?.+(ad|toutiao|taobao|sohu|ulogs).+
 
 
 */
