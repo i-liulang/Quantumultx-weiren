@@ -68,8 +68,8 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 #pear雪梨视频🚗
 ^http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/pear.js
 
-#汁乎视频🚗
-^http[s]?:\/\/.+((wldfnjh)|(yieamnd)|(qkjuyet)|(pejyyah)).com\/api\/.+(/user/info|/login/guest|/play|/post/detail|ping/config).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/zh.js
+#汁乎视频🚗已失效
+#^http[s]?:\/\/.+((wldfnjh)|(yieamnd)|(qkjuyet)|(pejyyah)).com\/api\/.+(/user/info|/login/guest|/play|/post/detail|ping/config).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/zh.js
 
 #有色视频🚗
 ^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
