@@ -7,7 +7,7 @@
 播放部分作品提示无网络！点击下方播放按钮即可播放!!
 
 ^http:\/\/.+/O2SysMedia/AdvertAudio/DearCustomer.mp3 url reject
-^http[s]?:\/\/api.o2ting.com\/api\/V2.+(ListByIndex|Detail|user/GetUserInfo).json url script-response-body yqts.js
+^http[s]?:\/\/api.o2ting.com\/api\/V2.+(ListByIndex|Detail|user/GetUserInfo).json url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yqts.js
 
 
 QX MITM = 
