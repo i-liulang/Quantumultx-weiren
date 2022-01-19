@@ -16,6 +16,9 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 ^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20211116v3Y5aRgEzRqwhOtwURL
 ^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/fd.js
 
+#氧气听书
+^http[s]?:\/\/api.o2ting.com\/api\/V2.+(ListByIndex|Detail|user/GetUserInfo).json url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yqts.js
+
 #网易云音乐解锁vip
 ^http[s]?:\/\/.+(player/url|playlist/).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/wyy.js
 
@@ -82,3 +85,6 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 
 #成人快手🚗
 ^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/crks.js
+
+#####去广告
+^http:\/\/.+/O2SysMedia/AdvertAudio/DearCustomer.mp3 url reject
