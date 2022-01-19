@@ -86,7 +86,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 #成人快手🚗
 ^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/crks.js
 
-#####去广告
+#####
 ^http:\/\/.+/O2SysMedia/AdvertAudio/DearCustomer.mp3 url reject
 ^http[s]?.+ulogs.umeng.com url reject
 ^http[s]?.+ulogs.umengcloud.com url reject
