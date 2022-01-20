@@ -65,6 +65,11 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 
 
 ######----福利应用脚本----######
+
+#
+#69萝莉解锁会员
+^http[s]?:\/\/h5.+you\.me.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69luoli.js
+
 #杏仁直播🚗
 ^http[s]?:\/\/.+((xingrend)|(xrzhuanxian)|(xrcz7812)|(xing)).+(livePayDeduct|/member/detail|/homeNotice|/message/banners|hot-data|/member/money|/deal|/pop_prop) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xrzhibo.js
 
