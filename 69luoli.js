@@ -5,7 +5,7 @@
 [rewrite_local]
 
 #69萝莉解锁会员
-^http[s]?:\/\/h5.+you\.me.*$ url script-request-header 69luoli.js
+^http[s]?:\/\/h5.+you\.me.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69luoli.js
 
 [mitm]
 hostname = *.biliapi.*, *.bilibili.*
