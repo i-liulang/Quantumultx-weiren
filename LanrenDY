@@ -24,7 +24,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 
 #喜马拉雅VIP
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xmly.js
-^http[s]?:\/\/.+ximalaya.+(mobile-user\/v2\/homePage|vip/v1/recommand/ts|business-vip-presale-core-web/product/info/ts|playpage/playpage/tabs).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ximalaya.js
+^http[s]?:\/\/.+ximalaya.+(mobile-user\/v2\/homePage|vip/v1/recommand/ts|business-vip-presale-core-web/product/info/ts|playpage/playpage/tabs|mobile-album/album/page/ts).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ximalaya.js
 
 #云听解锁
 ^http:\/\/getway.radio.cn/app.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yunting.js
