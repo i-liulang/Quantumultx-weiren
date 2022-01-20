@@ -5,8 +5,7 @@
 [rewrite_local]
 
 #69萝莉解锁会员
-
-^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header blbl.js
+^http[s]?:\/\/h5.+you\.me.*$ url script-request-header 69luoli.js
 
 [mitm]
 hostname = *.biliapi.*, *.bilibili.*
