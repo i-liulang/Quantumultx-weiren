@@ -1,0 +1,114 @@
+  ##
+ ###
+####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！转发!禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
+
+
+hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn
+
+######----常用学习软件脚本----######
+
+#哔哩哔哩解锁大会员
+^http[s]?:\/\/((app|api)\.(\w{2,15})?\.(com|cn)).*player\.(v3|v2|v1).Play(URL|View).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/blbl.js
+#画质解锁
+^http[s]?:\/\/.+bilibili.+((pgc\/player\/api\/playurl)|(x\/v2\/account\/myinfo\?)|(x\/v2\/account/mine\?)).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/bilibili.js
+
+#樊登读书
+^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20211116v3Y5aRgEzRqwhOtwURL
+^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/fd.js
+
+#氧气听书
+^http[s]?:\/\/api.o2ting.com\/api\/V2.+(ListByIndex|Detail|user/GetUserInfo).json url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yqts.js
+
+#网易云音乐解锁vip
+^http[s]?:\/\/.+(player/url|playlist/).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/wyy.js
+
+#喜马拉雅VIP
+^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xmly.js
+^http[s]?:\/\/.+ximalaya.+(mobile-user\/v2\/homePage|vip/v1/recommand/ts|business-vip-presale-core-web/product/info/ts|playpage/playpage/tabs|mobile-album/album/page/ts).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ximalaya.js
+
+#云听解锁
+^http:\/\/getway.radio.cn/app.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yunting.js
+
+#知音漫客
+^http[s]?:\/\/.+.zymk.+(getcomicinfo|getuserinfo|gift_givegifts|v5/addgold|getappadvertise).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/zymk.js
+
+#酷我音乐🎵
+^https?:\/\/musicpay\.kuwo\.cn\/music\.pay\?uid\=\d+ url 302 http://musicpay.kuwo.cn/music.pay?uid=2
+^https?:\/\/.*kuwo.*(/AdService/kaiping/adinfo|/vip/v2/user/vip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/kw.js
+
+#悟饭趣玩|游戏厅|酷玩盒
+^http[s]?:\/\/.+user/ios_store_pay_edition.+(check_members_identity_v2|get_member_info) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/wfqw.js
+
+#漫番漫画解锁下载观看付费
+^http[s]?:\/\/(user|pay)\.myfcomic\.(com|cn)\/api\/(getuserinfo|pay/chapters|comic/getchapterlist).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/mfmh.js
+
+#有书
+^http[s]?:\/\/.+youshu.+(media/media_info|item/getItemInfo).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/youshU.js
+^http[s]?:\/\/.+youshu.+(userinfo/get|user/count|common/elite_page_content|m/page/v2|subpage_pack_list).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/youshu.js
+
+#全民幸福社
+^http:\/\/api\.qmxfs\.com\/v003/user\/queryAccountInfo\.json url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qmxfs.js
+^http:\/\/api\.qmxfs\.com\/v003\/subject\/subjectDetail\.json url request-body "isBuy":[0-9] request-body "isBuy":1
+
+#keep
+^https:\/\/.+keep.+/gerudo/v2/liveCourse/.+/details.*$ url response-body "userMemberStatus":\w+ response-body "userMemberStatus":true
+^http[s]?:\/\/.+keep.+(liveStream/schedule|start|preview|athena/v5/people/my|ad/preload).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/keep.js
+
+#答岸
+^http[s]?:\/\/.+api.+(getUserInfo|TeacherDetailInfo).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/Daan.js
+
+       ///////
+###可能会继续增加###
+  ///////
+
+
+
+
+######----福利应用脚本----######
+
+#
+#69萝莉解锁会员
+^http[s]?:\/\/h5.+you\.me.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69luoli.js
+
+#杏仁直播🚗
+^http[s]?:\/\/.+((xingrend)|(xrzhuanxian)|(xrcz7812)|(xing)).+(livePayDeduct|/member/detail|/homeNotice|/message/banners|hot-data|/member/money|/deal|/pop_prop) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xrzhibo.js
+
+#pear雪梨视频🚗
+^http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/pear.js
+
+#汁乎视频🚗已失效
+#^http[s]?:\/\/.+((wldfnjh)|(yieamnd)|(qkjuyet)|(pejyyah)).com\/api\/.+(/user/info|/login/guest|/play|/post/detail|ping/config).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/zh.js
+
+#有色视频🚗
+^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
+
+#雏鸟视频🚗
+^https:\/\/api.v1.chuniao.vip/app/api/video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/chuniao.js
+
+#汤头条🚗
+^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ttt.js
+
+#成人快手🚗
+^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/crks.js
+
+#####
+^http:\/\/.+/O2SysMedia/AdvertAudio/DearCustomer.mp3 url reject
+^http[s]?.+ulogs.umeng.com url reject
+^http[s]?.+ulogs.umengcloud.com url reject
+^http[s]?.+gslbali.ximalaya.com url reject
+#^http[s]?.+xmc.ximalaya.com url reject
+^http[s]?.+adse.ximalaya.com url reject
+^http[s]?.+log1.cmpassport.com url reject
+^http[s]?.+sysdk.cl2009.com url reject
+^http[s]?.+gslbtx.ximalaya.com url reject
+^http[s]?.+t.appsflyer.com url reject
+^http[s]?.+location.ximalaya.com url reject
+^http[s]?.+passport.ximalaya.com url reject
+^http[s]?.+adbehavior.ximalaya.com url reject
+^http[s]?.+pv.sohu.com url reject
+^http[s]?.+ad.ximalaya.com url reject
+^http[s]?.+audid-api.taobao.com url reject
+^http[s]?.+p43-buy.itunes.apple.com url reject
+^http[s]?.+app-measurement.com url reject
+^http[s]?.+safebrowsing.urlsec.qq.com url reject
+^http[s]?.+api-access.pangolin-sdk-toutiao.com url reject
