@@ -108,7 +108,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 ^http[s]?.+pv.sohu.com url reject
 ^http[s]?.+ad.ximalaya.com url reject
 ^http[s]?.+audid-api.taobao.com url reject
-^http[s]?.+(/ad|/ads|umeng).+ url reject
+//^http[s]?.+(/ad|/ads|umeng).+ url reject
 ^http[s]?.+app-measurement.com url reject
 ^http[s]?.+safebrowsing.urlsec.qq.com url reject
 ^http[s]?.+api-access.pangolin-sdk-toutiao.com url reject
