@@ -69,7 +69,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 #
 #瑶池🚗
 ^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/MediaV2/page|/media/videoplayer) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
-^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/media/videoplayer) url request-header (\r\n)token:.+(\r\n) request-header $1token:e608a6ba-e6d0-487e-956f-282f7138c4ea$2
+#^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/media/videoplayer) url request-header (\r\n)token:.+(\r\n) request-header $1token:e608a6ba-e6d0-487e-956f-282f7138c4ea$2
 
 #69萝莉解锁会员🚗
 ^http[s]?:\/\/h.+you.me.+login/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-1-22%2015%3A9%3A12&data%5Bsign%5D=87163f047c70b1660680a6d804e296e0&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKlzbv5RXUq8jZ05efyaGv1uCOxumLmk8DVFqpGV7iLSh
