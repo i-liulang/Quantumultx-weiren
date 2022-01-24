@@ -2,9 +2,10 @@
 作者伟人q55749353
 
 瑶池🚗
-
+下载地址:https://ycpc.cc?code=NKPFCP
 
 ^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/MediaV2/page|/media/videoplayer) url script-response-body yaochi.js
+
 
 QX MITM = 
 */
