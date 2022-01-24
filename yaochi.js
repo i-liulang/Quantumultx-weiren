@@ -4,7 +4,7 @@
 瑶池🚗
 下载地址:https://ycpc.cc?code=NKPFCP
 
-^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/MediaV2/page|/media/videoplayer) url script-response-body yaochi.js
+^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/MediaV2/page|/media/videoplayer) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
 
 
 QX MITM = 
