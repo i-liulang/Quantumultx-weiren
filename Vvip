@@ -68,7 +68,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 
 #
 #瑶池🚗
-^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/MediaV2/page|/media/videoplayer) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
+^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/media/videoplayer|/user/checkVersion) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
 #^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/media/videoplayer) url request-header (\r\n)token:.+(\r\n) request-header $1token:e608a6ba-e6d0-487e-956f-282f7138c4ea$2
 
 #69萝莉解锁会员🚗
