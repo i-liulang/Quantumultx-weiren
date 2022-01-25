@@ -87,7 +87,7 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 ^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
 
 #雏鸟视频🚗
-^https:\/\/api.v1.chuniao.vip/app/api/video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/chuniao.js
+^http[s]?:\/\/.+chuniao.+video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/chuniao.js
 
 #汤头条🚗
 ^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ttt.js
