@@ -69,32 +69,32 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 ######----福利应用脚本----######
 
 #
-#瑶池🚗
+#瑶池🚗 下载地址- https://ycpc.cc?code=NKP3CM
 ^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/media/videoplayer|/user/checkVersion) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
 #^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/media/videoplayer) url request-header (\r\n)token:.+(\r\n) request-header $1token:e608a6ba-e6d0-487e-956f-282f7138c4ea$2
 
-#69萝莉解锁会员🚗
-^http[s]?:\/\/h.+you.me.+login/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-1-22%2015%3A9%3A12&data%5Bsign%5D=87163f047c70b1660680a6d804e296e0&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKlzbv5RXUq8jZ05efyaGv1uCOxumLmk8DVFqpGV7iLSh
+#69萝莉解锁会员🚗 下载地址- 
+^http[s]?:\/\/h.+login/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-1-22%2015%3A9%3A12&data%5Bsign%5D=87163f047c70b1660680a6d804e296e0&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKlzbv5RXUq8jZ05efyaGv1uCOxumLmk8DVFqpGV7iLSh
 
-#杏仁直播🚗
+#杏仁直播🚗 下载地址- 
 ^http[s]?:\/\/.+((xingrend)|(xrzhuanxian)|(xrcz7812)|(xing)).+(livePayDeduct|/member/detail|/homeNotice|/message/banners|hot-data|/member/money|/deal|/pop_prop) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xrzhibo.js
 
-#pear雪梨视频🚗
+#pear雪梨视频🚗 下载地址- 
 ^http[s]?:\/\/.+(movie\/WatchMovieNew|Account\/CheckVip|movie/DetailInfo|/account/IndexDetail|/cartoon/DownLoadCartoon|/cartoon/LookPhoto|/movie/DetailInfo|PictureSet/LookPhoto|/account/Milk|account/suport|account/IsVip).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/pear.js
 
 #汁乎视频🚗已失效
 #^http[s]?:\/\/.+((wldfnjh)|(yieamnd)|(qkjuyet)|(pejyyah)).com\/api\/.+(/user/info|/login/guest|/play|/post/detail|ping/config).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/zh.js
 
-#有色视频🚗
+#有色视频🚗 下载地址-
 ^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
 
-#雏鸟视频🚗
+#雏鸟视频🚗 下载地址- 
 ^http[s]?:\/\/.+chuniao.+video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/chuniao.js
 
-#汤头条🚗
+#汤头条🚗 下载地址- 
 ^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ttt.js
 
-#成人快手🚗
+#成人快手🚗下载地址- 
 ^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/crks.js
 
 #####
