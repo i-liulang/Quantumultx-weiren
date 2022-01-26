@@ -57,6 +57,8 @@ hostname = *.biliapi.*, *.bilibili.*,*dushu*,*music*,*xima*,*.*.*,*.zymk.cn,vip1
 #答岸
 ^http[s]?:\/\/.+api.+(getUserInfo|TeacherDetailInfo).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/Daan.js
 
+#简影
+^http[s]?:\/\/api\.jianmovie\.com/(cardinfo|/expense) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/jianying.js
        ///////
 ###可能会继续增加###
   ///////
