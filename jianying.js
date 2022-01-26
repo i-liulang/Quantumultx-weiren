@@ -4,7 +4,7 @@
 
 简影解锁🔓
 
-^http[s]?:\/\/api\.jianmovie\.com/(cardinfo|/expense) url script-response-body jianying.js
+^http[s]?:\/\/api\.jianmovie\.com/(cardinfo|/expense) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/jianying.js
 [rewrite_local]
 
 
