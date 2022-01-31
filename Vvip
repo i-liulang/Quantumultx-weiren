@@ -97,7 +97,7 @@ hostname = *.biliapi.*, *.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*
 #汤头条🚗 下载地址- http://aff.ttt001.net/af/a4KSt
 ^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ttt.js
 
-#成人快手🚗下载地址- 
+#成人快手🚗下载地址-  
 ^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/crks.js
 
 #####
