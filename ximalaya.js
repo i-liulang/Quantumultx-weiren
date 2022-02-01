@@ -1,23 +1,11 @@
-/*
-
-
-
-[rewrite_local]
-
-^http[s]?:\/\/.+ximalaya.+(mobile-user\/v2\/homePage|vip/v1/recommand/ts|business-vip-presale-core-web/product/info/ts|/mobile-album/album/page/ts).*$ url script-response-body ximalaya.js
-
-[mitm]
-hostname= *xima*
-
-*/
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
 
-const p1 = '/mobile-user/v2/homePage/';
-const p2 = '/vip/v1/recommand/ts';
-const p3 = '/playpage';
-const p4 = '/mobile-album/album/page/ts';
+const p1 = 'mobile-user/v2/homePage/';
+const p2 = 'product/info';
+const p3 = 'playpage';
+const p4 = 'mobile-album/album/page/ts';
 //个人页面
 if (url.indexOf(p1) != -1) {
 obj.data.nickname = "伟人破解";
@@ -56,7 +44,7 @@ if (url.indexOf(p3) != -1) {
 	body = JSON.stringify(obj);
 }
 //播放页面剩余时间
-if (url.indexOf(p2) != -1) {
+if (url.indexOf(p3) != -1) {
 	delete obj.data.promotionGuideInfo.buttonText;
      delete obj.data.promotionGuideInfo.countdownText;
      delete obj.data.promotionGuideInfo.explainText;
