@@ -3,8 +3,8 @@ var url = $request.url;
 var obj = JSON.parse(body);
 
 const p1 = 'mobile-user/v2/homePage/';
-const p2 = 'product/info';
-const p3 = 'playpage';
+const p3 = 'product/info';
+const p2 = 'playpage';
 const p4 = 'mobile-album/album/page/ts';
 //个人页面
 if (url.indexOf(p1) != -1) {
