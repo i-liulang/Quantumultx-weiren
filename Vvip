@@ -59,9 +59,14 @@ hostname = *.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*x
 
 #简影
 ^http[s]?:\/\/api\.jianmovie\.com/(cardinfo|/expense) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/jianying.js
+
 #蜜蜂试卷
 ^http[s]?:\/\/camexam.intsig.net/vip/query_info url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/mfsj.js
-    ///////
+
+#全能扫描王
+^http[s]?:\/\/api-cs.intsig.net/purchase/cs/query_property.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qnsm.js
+  
+  ///////
 ###可能会继续增加###
   ///////
 
