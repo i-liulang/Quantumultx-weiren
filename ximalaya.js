@@ -35,12 +35,12 @@ if (url.indexOf(p3) != -1) {
     obj.data.userInfo.expireDate = "2999-12-12";
     obj.data.userInfo.expireDays = 9999999;
     obj.data.userInfo.userLevel = 2;
-     delete obj.data.recommendVipProduct;
-     delete obj.data.moreVipChannels;
-     delete obj.data.jointVipProducts;
+     //delete obj.data.recommendVipProduct;
+     //delete obj.data.moreVipChannels;
+     //delete obj.data.jointVipProducts;
      //delete obj.data.vipProducts;
 
-     delete obj.data.ads;
+     //delete obj.data.ads;
 	body = JSON.stringify(obj);
 }
 //播放页面剩余时间
