@@ -1,6 +1,7 @@
 /*
 作者伟人q55749353
 蜜蜂试卷解锁vip
+^http[s]?:\/\/camexam.intsig.net/vip/query_info url script-response-body mfsj.js
 
 */
 var body = $response.body; 
