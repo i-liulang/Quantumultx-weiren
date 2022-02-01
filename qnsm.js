@@ -1,7 +1,7 @@
 /*
 作者伟人q55749353
 全能扫描王解锁vip
-
+^http[s]?:\/\/api-cs.intsig.net/purchase/cs/query_property.*$ url script-response-body qnsm.js
 */
 var body = $response.body; 
 let obj = JSON.parse($response.body);
