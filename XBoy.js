@@ -7,7 +7,7 @@ XBoy🚗
 下载地址=https://www.xboy2.live
 
 
-^http[s]?:\/\/.+zhongxyj.com/api(/Account/IndexDetail|/movie/DetailInfo/|/movie/watch).*$ url script-response-body XBoy.js
+^http[s]?:\/\/.+zhongxyj.com/api(/Account/IndexDetail|/movie/DetailInfo/|/movie/watch).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/XBoy.js
 
 QX MITM = *zhongxyj*
 
