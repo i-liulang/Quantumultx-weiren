@@ -5,7 +5,7 @@
 [rewrite_local]
 
 #小鸟视频🚗
-^http:\/\/xnsp\.tv\/api\/videoweb\/ying\/get(MemberInfo|Video).*$ url script-request-header xnsp.js
+^http:\/\/xnsp\.tv\/api\/videoweb\/ying\/get(MemberInfo|Video).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xnsp.js
 
 [mitm]
 hostname = xnsp.tv
