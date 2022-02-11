@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！转发!禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = *zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
+hostname = xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
 
 ######----常用学习软件脚本----######
 
@@ -76,7 +76,9 @@ hostname = *zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*
 
 ######----福利应用脚本----######
 
-#
+#小鸟视频🚗 下载地址- http://xnsp.tv/#/
+^http:\/\/xnsp\.tv\/api\/videoweb\/ying\/get(MemberInfo|Video).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xnsp.js
+
 #瑶池🚗 下载地址- https://ycpc.cc?code=NKP3CM
 ^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/user/checkVersion) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
 ^http:\/\/api.ggmza.cn\/api\/user\/autoLogin url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ychi.js
