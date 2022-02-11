@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！转发!禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
+hostname = h5*,xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
 
 ######----常用学习软件脚本----######
 
@@ -84,7 +84,10 @@ hostname = xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,
 ^http:\/\/api.ggmza.cn\/api\/user\/autoLogin url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ychi.js
 
 #69萝莉解锁会员🚗 [随意账号登陆变成会员]下载地址- https://69luolic.com?us=IHSLEF
-^http[s]?:\/\/h.+login/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-1-22%2015%3A9%3A12&data%5Bsign%5D=87163f047c70b1660680a6d804e296e0&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKlzbv5RXUq8jZ05efyaGv1uCOxumLmk8DVFqpGV7iLSh
+^https://h5x\.h569ll0t\.com\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-1-22%2015%3A9%3A12&data%5Bsign%5D=87163f047c70b1660680a6d804e296e0&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKlzbv5RXUq8jZ05efyaGv1uCOxumLmk8DVFqpGV7iLSh
+
+#69萌娘解锁会员🚗 [随意账号登陆变成会员]下载地址- https://69luolia.com?us=7N94F5
+^https://h5x\.dppfjj\.com\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-2-11%2013%3A41%3A1&data%5Bsign%5D=33934a05415f0e7cd641e948844586af&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKu7enw9rsrIkUkgcEafD4CzZURmrMd5VZ0C9%2F36YIJEH
 
 #69短视频🚗  [随意账号登陆变成会员]下载地址- http://69dsp.tv/#/?invite=7XKCJD
 ^https:\/\/.+member/api/user/login url request-body "signKey":"[^"]+ request-body "signKey":"5zTh8aDqzaLTF+1IEg+q4OF9ADaJOTpY045X1js89XjJ39BQgYC8OD7lRJy2p4LtXYJ6qStPL6YKvi2XhDK2tw==
