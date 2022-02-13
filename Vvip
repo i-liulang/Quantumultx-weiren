@@ -76,7 +76,7 @@ hostname = *ssiis*,h5*,xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*
 
 ######----福利应用脚本----######
 
-#色中色🚗 下载地址- https://styibv.one/?pc=QW4AYL
+#色中色🚗[第一次打开开启圈叉打开，无效请选择二维码登陆随意二维码即可] 下载地址- https://styibv.one/?pc=QW4AYL
 ^https:\/\/.+ssiis.+api\/login\/guest url request-body "data":"[^"]+ request-body "data":"b+EXGBqPRl9JzdlW2dA+3kS2c1aJuM61l+rbEKnN+BrKhM9fUNHZS7Eh2u5WmYbEMW52TmHxmhcVmXF0RmSU9XTCL+uabNuXvziQGCh4FTPSpmFGn3ZhMIa/I0KwC1LZ6UnxvlTnDX67mD2LMIMfJ5Te0uoLxCm9wBR4xUGvx6cLdFlpn53jxAaLjlak8+nWI4gdCCbuLGqTTb5pTfLOO1vpLNpC0+3mAEd4VKBP7utHMBjVh6xJ3nLlRLK/dgPl0Q87GRHeT3h/3t4yfF5m+EGDxFaL8h74iVwE3m7f4hKkfy9qAZ2IF1HXbl3eBwSwweHCvfYN15C2sS8U/FPRvBx2wqlaTfHw4xVmTQOQtqA=
 
 #小鸟视频🚗 下载地址- http://xnsp.tv/#/
