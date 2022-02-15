@@ -112,7 +112,7 @@ hostname = *viqlwoqc*,biliapi*,bbb*,hnyoufan*,*pejyyah*,*yieamnd*,*wldfnjh*,*yie
 ^http[s]?:\/\/.+(pejyyah|yieamnd|wldfnjh|yieamnd|qkjuyet).+\/api\/app\/login\/guest url request-body .+ request-body {"devId":"E382D7DD-CCDD-4847-93B9-E1FE72CEA12F","affCode":""}
 
 #逼哩逼哩🚗 [初次打开开启圈叉即可] 下载地址- https://8wqsqbx.com/?pc=1GIHW2CY
-^https:\/\/(biliapi|bb|hnyoufan).+/api(/app|/h5app)/login/guest url request-body "devId":"[^"]+ request-body "devId":"37AD388E-62DA-4B0D-97F4-026FC9747C80
+^https:\/\/(biliapi|bb|hnyoufan).+/api(/app|/h5app)/login/guest url request-body .+ request-body {"devId":"37AD388E-62DA-4B0D-97F4-026FC9747C80","affCode":""}
 
 #有色视频🚗 下载地址- ys37.cn
 ^http[s]?:\/\/.+((9aixuan)|(liuxiaoyan123)|(heyihongmu)|(901clo)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
