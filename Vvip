@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！转发!禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = biliapi*,bbb*,hnyoufan*,*pejyyah*,*yieamnd*,*wldfnjh*,*yieamnd*,*qkjuyet*,*ssiis*,h5*,xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
+hostname = *viqlwoqc*,biliapi*,bbb*,hnyoufan*,*pejyyah*,*yieamnd*,*wldfnjh*,*yieamnd*,*qkjuyet*,*ssiis*,h5*,xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
 
 ######----常用学习软件脚本----######
 
@@ -75,6 +75,9 @@ hostname = biliapi*,bbb*,hnyoufan*,*pejyyah*,*yieamnd*,*wldfnjh*,*yieamnd*,*qkju
 
 
 ######----福利应用脚本----######
+ 
+#麻豆传媒🚗 [初次打开开启圈叉即可] 下载地址- https://wqzzyil.com/?pc=RTWPK6DK
+^https:\/\/.+viqlwoqc.+\/api\/app\/login\/guest url request-body "devId":"[^"]+ request-body "devId":"61A28574-7319-463F-9A2F-F4E251270D15
 
 #色中色🚗[第一次打开开启圈叉打开，无效请选择二维码登陆随意二维码即可] 下载地址- https://styibv.one/?pc=QW4AYL
 ^https:\/\/.+ssiis.+api\/login\/guest url request-body "data":"[^"]+ request-body "data":"b+EXGBqPRl9JzdlW2dA+3kS2c1aJuM61l+rbEKnN+BrKhM9fUNHZS7Eh2u5WmYbEMW52TmHxmhcVmXF0RmSU9XTCL+uabNuXvziQGCh4FTPSpmFGn3ZhMIa/I0KwC1LZ6UnxvlTnDX67mD2LMIMfJ5Te0uoLxCm9wBR4xUGvx6cLdFlpn53jxAaLjlak8+nWI4gdCCbuLGqTTb5pTfLOO1vpLNpC0+3mAEd4VKBP7utHMBjVh6xJ3nLlRLK/dgPl0Q87GRHeT3h/3t4yfF5m+EGDxFaL8h74iVwE3m7f4hKkfy9qAZ2IF1HXbl3eBwSwweHCvfYN15C2sS8U/FPRvBx2wqlaTfHw4xVmTQOQtqA=
