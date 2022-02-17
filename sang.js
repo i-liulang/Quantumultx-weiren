@@ -1,13 +1,14 @@
 /*
 
+作者伟人q55749353
 
 [rewrite_local]
 
 #三更
-
+^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header sang.js
 
 [mitm]
-hostname = *txt2021*,*kaqcn*
+hostname = *txt2021*,*kaqcn*,invlock
 
 */
 
