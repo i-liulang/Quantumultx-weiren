@@ -5,7 +5,7 @@
 [rewrite_local]
 
 #三更
-^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header sang.js
+^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/sang.js
 
 [mitm]
 hostname = *txt2021*,*kaqcn*,invlock
