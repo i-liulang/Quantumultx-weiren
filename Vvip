@@ -3,7 +3,7 @@
 ####   以下内容由 伟人 制作 联系方式 QQ 55749353。禁止贩卖！转发!禁止用于非法用途！请订阅后24小时内主动删除！作者不承担任何法律责任！！
 
 
-hostname = *xianghezhaofang*,*tangnvshi*,*invlock*,*txt2021*,*kaqcn*,*viqlwoqc*,biliapi*,bbb*,hnyoufan*,*pejyyah*,*yieamnd*,*wldfnjh*,*yieamnd*,*qkjuyet*,*ssiis*,h5*,xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
+hostname = *xsg*,*xianghezhaofang*,*tangnvshi*,*invlock*,*txt2021*,*kaqcn*,*viqlwoqc*,biliapi*,bbb*,hnyoufan*,*pejyyah*,*yieamnd*,*wldfnjh*,*yieamnd*,*qkjuyet*,*ssiis*,h5*,xnsp.tv,*zhongxyj*,*.biliapi.*,*.bilibili.*,*cpzhongxiyi*,*h5*,*you*,*tbrapi*,*ksapi*,*xing*,*xrcz7812*,*xrzhuanxian*,*xingrend*,*ios*,*radio*,*dazmaster*,*ting*,*ggmza*,*jianmovie*,*biliapi*, *bilibili*,*dushu*,*music*,*xima*,ximalaya*,*laya*,*.zymk.cn,vip1.kuwo.cn,iosv2.cjapi.papa21.com,*myfcomic*,m.*c*,*wldfnjh*,*yieamnd*,*qkjuyet*,*pejyyah*,*tangnvshi*,9aixuan,*chuniao*,*tbrapi*,*ksapi*,*youshu*,*qmxfs*,*sanhe*,*keep*,123.57.195.48,getway.radio.cn,-*.icloud*,-*.apple*,camexam.intsig.net,api-cs.intsig.net,
 
 ######----常用学习软件脚本----######
 
@@ -115,7 +115,7 @@ hostname = *xianghezhaofang*,*tangnvshi*,*invlock*,*txt2021*,*kaqcn*,*viqlwoqc*,
 ^https:\/\/(biliapi|bb|hnyoufan).+/api(/app|/h5app)/login/guest url request-body "devId":"[^"]+ request-body "devId":"37AD388E-62DA-4B0D-97F4-026FC9747C80
 
 #有色视频🚗 下载地址- ys37.cn
-^http[s]?:\/\/.+((9aixuan)|(xianghezhaofang)|(liuxiaoyan123)|(heyihongmu)|(901clo)(tangnvshi)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
+^http[s]?:\/\/.+((9aixuan)|(xsg)|(xianghezhaofang)|(liuxiaoyan123)|(heyihongmu)|(901clo)(tangnvshi)).(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
 
 #三更🚗 下载地址- https://go.g3qieg.cn:4443/18953889?tmp=1221
 ^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/sang.js
