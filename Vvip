@@ -68,11 +68,11 @@ hostname = *caiyunapp*,*xianghezhaofang*,*tangnvshi*,*invlock*,*txt2021*,*kaqcn*
 ^http[s]?:\/\/api-cs.intsig.net/purchase/cs/query_property.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qnsm.js
   
  #彩云天气
- ^http[s]?:\/\/biz\.caiyunapp\.com\/v2\/user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/cytq.js
+^http[s]?:\/\/biz\.caiyunapp\.com\/v2\/user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/cytq.js
 
   ///////
 ###可能会继续增加###
-  ////////
+  /////////
 
 
 
