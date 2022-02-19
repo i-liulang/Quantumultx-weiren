@@ -2,7 +2,7 @@
 
 彩云天气
 
-^http[s]?:\/\/biz\.caiyunapp\.com\/v2\/user.*$ url script-response-body cytq.js
+^http[s]?:\/\/biz\.caiyunapp\.com\/v2\/user.*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/cytq.js
 
 hostname = *.caiyunapp.*
 
