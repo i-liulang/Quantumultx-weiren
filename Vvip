@@ -115,7 +115,7 @@ hostname = *xianghezhaofang*,*tangnvshi*,*invlock*,*txt2021*,*kaqcn*,*viqlwoqc*,
 ^https:\/\/(biliapi|bb|hnyoufan).+/api(/app|/h5app)/login/guest url request-body "devId":"[^"]+ request-body "devId":"37AD388E-62DA-4B0D-97F4-026FC9747C80
 
 #有色视频🚗 下载地址- ys37.cn
-^http[s]?:\/\/.+((9aixuan)|(xianghezhaofang)|(liuxiaoyan123)|(heyihongmu)|(901clo)(tangnvshi)).+(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
+^http[s]?:\/\/.+((9aixuan)|(xsg)|(xianghezhaofang)|(liuxiaoyan123)|(heyihongmu)|(901clo)(tangnvshi)).+(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
 
 #三更🚗 下载地址- https://go.g3qieg.cn:4443/18953889?tmp=1221
 ^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/sang.js
