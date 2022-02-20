@@ -15,9 +15,9 @@ var obj = JSON.parse(body);
 
 const p1 = 'user/info';
 //const p2 = 'my/startupBanner';
-const p3 = 'common/enterNotice';
+//const p3 = 'common/enterNotice';
+//const p5 = 'user/checkVersion';
 
-const p5 = 'user/checkVersion';
 if (url.indexOf(p1) != -1) {
     let obj = JSON.parse(body);   
      obj.data.nickname = "伟人";
@@ -39,7 +39,7 @@ if (url.indexOf(p2) != -1) {
 delete obj.data;
    body = JSON.stringify(obj);
 }
-*/
+
 //公告
 if (url.indexOf(p3) != -1) {
   let obj = JSON.parse(body);
@@ -53,5 +53,6 @@ if (url.indexOf(p5) != -1) {
 delete obj.data ;
    body = JSON.stringify(obj);
 }
+*/
  $done({body});
 
