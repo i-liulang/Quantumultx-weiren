@@ -92,8 +92,8 @@ hostname = *caiyunapp*,*xianghezhaofang*,*tangnvshi*,*invlock*,*txt2021*,*kaqcn*
 ^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/user/checkVersion) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
 ^http:\/\/api.ggmza.cn\/api\/user\/autoLogin url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ychi.js
 
-#69萝莉解锁会员🚗 [随意账号登陆变成会员]下载地址- https://69luolic.com?us=IHSLEF
-^https://h5x\.h.+\.com\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-1-22%2015%3A9%3A12&data%5Bsign%5D=87163f047c70b1660680a6d804e296e0&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKlzbv5RXUq8jZ05efyaGv1uCOxumLmk8DVFqpGV7iLSh
+#69萝莉解锁会员🚗 [直接看会员视频]下载地址- https://69luolic.com?us=IHSLEF
+^http[s]?:\/\/h5x\.h.+\.com\/h5\/movie.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69luoli.js
 
 #69萌娘解锁会员🚗 [随意账号登陆变成会员]下载地址- https://69luolia.com?us=7N94F5
 ^https://h5x\.d.+\.com\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-2-11%2013%3A41%3A1&data%5Bsign%5D=33934a05415f0e7cd641e948844586af&data%5Bdata%5D=U2oqS8rLqzMbk4YTGevYKu7enw9rsrIkUkgcEafD4CzZURmrMd5VZ0C9%2F36YIJEH
