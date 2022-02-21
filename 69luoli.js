@@ -5,7 +5,7 @@
 
 #69萝莉解锁会员
 
-^http[s]?:\/\/h5x\.h.+\.com\/h5\/movie.*$
+^http[s]?:\/\/h5x\.h.+\.com\/h5\/movie.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69luoli.js
 
 [mitm]
 hostname = 
