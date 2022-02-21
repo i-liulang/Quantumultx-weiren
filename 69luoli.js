@@ -5,7 +5,8 @@
 
 #69萝莉解锁会员
 
-^https://h5.+com/h5/movie.*$ url script-request-header 69luoli.js
+^http[s]?:\/\/h5x\.h.+\.com\/h5\/movie.*$
+
 [mitm]
 hostname = 
 
