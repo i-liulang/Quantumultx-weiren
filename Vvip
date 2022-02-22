@@ -93,10 +93,10 @@ hostname = *caiyunapp*,*xianghezhaofang*,*tangnvshi*,*invlock*,*txt2021*,*kaqcn*
 ^http:\/\/api.ggmza.cn\/api\/user\/autoLogin url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ychi.js
 
 #69萝莉解锁会员🚗 [直接看会员视频]下载地址- https://69luolic.com?us=IHSLEF
-^http[s]?:\/\/h5x\.h.+\.com\/h5\/movie.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69luoli.js
+^http[s]?:\/\/h5x\.(h|[0-9]+).+\.(com|me)\/h5\/movie.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69luoli.js
 
 #69萌娘解锁会员🚗 [直接看会员视频]下载地址- https://69luolia.com?us=7N94F5
-^http[s]?:\/\/h5x\.(cqcqygr|dppfjj|ddwknzj)\.com\/h5\/movie.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69mn.js
+^http[s]?:\/\/h5x\.(cqcqygr|dppfjj|ddwknzj)\.(com|me)\/h5\/movie.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69mn.js
 
 #69短视频🚗  [随意账号登陆变成会员]下载地址- http://69dsp.tv/#/?invite=7XKCJD
 ^https:\/\/.+member/api/user/login url request-body "signKey":"[^"]+ request-body "signKey":"5zTh8aDqzaLTF+1IEg+q4OF9ADaJOTpY045X1js89XjJ39BQgYC8OD7lRJy2p4LtXYJ6qStPL6YKvi2XhDK2tw==
