@@ -1,8 +1,9 @@
 /*
+作者伟人q55749353
 
 # > 91视频解锁会员
 
-^http[s]?:\/\/\w{1,6}\.((utsuu)|(weilaixushi)|(orientlion)|(qdjdswkj)|(0954auto)|(xmblgg))\.(com|cn)/\m_user\/info url script-response-body 91sp.js
+^http[s]?:\/\/\w{1,6}\.((utsuu)|(weilaixushi)|(orientlion)|(qdjdswkj)|(0954auto)|(xmblgg))\.(com|cn)/\m_user\/info url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/91sp.js
 ^https?:\/\/.*\/common\/splash_config url reject-200
 
 QX MITM = 
