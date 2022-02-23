@@ -4,10 +4,10 @@
 [rewrite_local]
 
 #三更
-
+^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header sang.js
 
 [mitm]
-hostname = *txt2021*,*kaqcn*
+hostname = *txt2021*,*kaqcn*,*invlock*
 
 */
 
@@ -22,6 +22,6 @@ modifiedHeaders['token'] = 'eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJ1c2VyXzE4OTc2MzAxIiw
 modifiedHeaders['User-Agent'] = 'FourInOne/3.5.3 (iPhone; iOS 14.7; Scale/2.00)';
 
 modifiedHeaders['deviceos'] = 'ios_iPhone9,1 ; iOS 14.7 ;';
-
+//$notify("伟哥提醒您三更会员注入成功");
 $done({headers : modifiedHeaders});
 
