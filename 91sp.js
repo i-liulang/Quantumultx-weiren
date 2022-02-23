@@ -2,7 +2,7 @@
 
 # > 91视频解锁会员
 
-^http[s]?:\/\/ap(i|p)\.((utsuu))\.(com|cn)/\m_user\/info url script-response-body 91sp.js
+^http[s]?:\/\/\w{1,6}\.((utsuu)|(weilaixushi)|(orientlion)|(qdjdswkj)|(0954auto)|(xmblgg))\.(com|cn)/\m_user\/info url script-response-body 91sp.js
 ^https?:\/\/.*\/common\/splash_config url reject-200
 
 QX MITM = 
