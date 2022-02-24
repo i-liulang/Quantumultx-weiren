@@ -97,10 +97,11 @@ hostname = *invlock*,*txt2021*,*kaqcn*,*xmblgg*,*0954auto*,*qdjdswkj*,*orientlio
 ^http[s]?:\/\/api\.ggmza\.cn\/api(/user/info|/my/startupBanner|/common/enterNotice|/user/checkVersion) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yaochi.js
 ^http:\/\/api.ggmza.cn\/api\/user\/autoLogin url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ychi.js
 
-#69萝莉解锁会员🚗 [直接看会员视频]下载地址- https://69luolic.com?us=IHSLEF
-^http[s]?:\/\/h5x\.(h|[0-9]+).+\.(com|me)\/h5\/login\/loginAccount url request-body .+ request-body data[device]=h5&data[version]=1.0&data[time]=2022-2-23 23:58:59&data[sign]=af20e06e9414b58409ac8447bd10ff66&data[data]=hr4e46EXJvO2ak2bivdO3lgfhlQbYCcmf6Qd9KeVZz2PiN+/3UZF4P3IGmoHlBH+Kb400PIfMhzfKWSiY7E6CA==
+#69萝莉解锁会员🚗 [随意账号登陆直接看会员视频]下载地址- https://69luolic.com?us=IHSLEF
+^http[s]?:\/\/h5x\.(h|[0-9]+).+\.(com|me)\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-2-24%2010%3A36%3A33&data%5Bsign%5D=6e8ddda14123828bccd3c914d88f6ebe&data%5Bdata%5D=hr4e46EXJvO2ak2bivdO3lgfhlQbYCcmf6Qd9KeVZz2PiN%2B%2F3UZF4P3IGmoHlBH%2BKb400PIfMhzfKWSiY7E6CA%3D%
 
-#69萌娘解锁会员🚗 [直接看会员视频]下载地址- https://69luolia.com?us=7N94F5
+#69萌娘解锁会员🚗 [随意账号登陆直接看会员视频]下载地址- https://69luolia.com?us=7N94F5
+^http[s]?:\/\/h5x\.(cqcqygr|dppfjj|ddwknzj)\.(com|me)\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D%3Dh5%26data%5Bversion%5D%3D1.0%26data%5Btime%5D%3D2022-2-24%208:25:43%26data%5Bsign%5D%3Dead86ced78c380377b3b27daac333013%26data%5Bdata%5D%3Dhr4e46EXJvO2ak2bivdO3lgfhlQbYCcmf6Qd9KeVZz2PiN+/3UZF4P3IGmoHlBH+Kb400PIfMhzfKWSiY7E6CA%3D%3D
 //^http[s]?:\/\/h5x\.(cqcqygr|dppfjj|ddwknzj)\.(com|me)\/h5\/movie.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/69mn.js
 
 #69短视频🚗  [随意账号登陆变成会员]下载地址- http://69dsp.tv/#/?invite=7XKCJD
