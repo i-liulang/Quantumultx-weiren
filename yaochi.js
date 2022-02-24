@@ -43,9 +43,9 @@ delete obj.data;
 //公告
 if (url.indexOf(p3) != -1) {
   let obj = JSON.parse(body);
-//delete obj.data;
-      obj.data.sub_title = "作者伟人q55749353";
-      obj.data.content = "此脚本只需要运行一次即可一直看会员视频！如果失效请换节点或者重装更新脚本来解决！";
+delete obj.data;
+     // obj.data.sub_title = "作者伟人q55749353";
+    //  obj.data.content = "此脚本只需要运行一次即可一直看会员视频！如果失效请换节点或者重装更新脚本来解决！";
    body = JSON.stringify(obj);
 }
 /*
