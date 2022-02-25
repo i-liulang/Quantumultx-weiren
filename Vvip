@@ -129,9 +129,6 @@ hostname = *invlock*,*txt2021*,*kaqcn*,*xmblgg*,*0954auto*,*qdjdswkj*,*orientlio
 #有色视频🚗 下载地址- ys37.cn
 ^http[s]?:\/\/.+((9aixuan)|(xsg)|(xianghezhaofang)|(liuxiaoyan123)|(heyihongmu)|(901clo)(tangnvshi)).+(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
 
-#三更🚗 下载地址- https://go.g3qieg.cn:4443/18953889?tmp=1221
-^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/sang.js
-
 #雏鸟视频🚗 下载地址- [仅解锁会员播放]https://cn08.me
 ^http[s]?:\/\/.+chuniao.+video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/chuniao.js
 
