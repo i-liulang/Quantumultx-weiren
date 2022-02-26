@@ -123,7 +123,7 @@ hostname = slf*,*qqc*,*invlock*,*txt2021*,*kaqcn*,*xmblgg*,*0954auto*,*qdjdswkj*
 ^https:\/\/(biliapi|bb|hnyoufan).+/api(/app|/h5app)/login/guest url request-body "devId":"[^"]+ request-body "devId":"37AD388E-62DA-4B0D-97F4-026FC9747C80
 
 #青青草🚗 [解锁会员] 下载地址- https://qqcyjs.me/?_s=CLK9
-^http[s]?:\/\/qqc\w{2,6}\.link/(cartoon|movie|book|person).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qqc.js
+^http[s]?:\/\/qqc\w{2,6}\.(link|me|com|cn)/(cartoon|movie|book|person).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qqc.js
 
 #三更🚗 [解锁会员] 下载地址- https://go.foikuqk.cn:2096/18976301
 ^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/sang.js
