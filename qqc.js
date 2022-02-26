@@ -6,7 +6,7 @@
 
 #青青草
 
-^http[s]?:\/\/qqc\w{2,6}\.link/(cartoon|movie|book|person).*$ url script-request-header qqc.js
+^http[s]?:\/\/qqc\w{2,6}\.link/(cartoon|movie|book|person).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qqc.js
 
 [mitm]
 hostname = *qqc*
