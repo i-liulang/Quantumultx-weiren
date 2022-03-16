@@ -1,1 +1,113 @@
-var _0x3f67=["\x62\x6F\x64\x79","\x75\x72\x6C","\x70\x61\x72\x73\x65","\x6D\x6F\x62\x69\x6C\x65\x2D\x75\x73\x65\x72\x2F\x76\x32\x2F\x68\x6F\x6D\x65\x50\x61\x67\x65\x2F","\x62\x75\x73\x69\x6E\x65\x73\x73\x2D\x76\x69\x70\x2D\x70\x72\x65\x73\x61\x6C\x65\x2D\x63\x6F\x72\x65\x2D\x77\x65\x62\x2F\x70\x72\x6F\x64\x75\x63\x74\x2F\x69\x6E\x66\x6F","\x6D\x6F\x62\x69\x6C\x65\x2D\x70\x6C\x61\x79\x70\x61\x67\x65\x2F\x70\x6C\x61\x79\x70\x61\x67\x65\x2F\x74\x61\x62\x73","\x6D\x6F\x62\x69\x6C\x65\x2D\x61\x6C\x62\x75\x6D\x2F\x61\x6C\x62\x75\x6D\x2F\x70\x61\x67\x65\x2F\x74\x73","\x76\x69\x70\x2F\x76\x31\x2F\x72\x65\x63\x6F\x6D\x6D\x61\x6E\x64","\x6D\x6F\x62\x69\x6C\x65\x2F\x76\x31\x2F\x61\x6C\x62\x75\x6D\x2F\x74\x72\x61\x63\x6B\x2F\x74\x73","\x70\x72\x69\x63\x65\x2F\x64\x79\x6E\x61\x6D\x69\x63\x2F\x74\x73","\x69\x6E\x64\x65\x78\x4F\x66","\x6E\x69\x63\x6B\x6E\x61\x6D\x65","\x64\x61\x74\x61","\u4F1F\u4EBA\u7834\u89E3","\x69\x73\x56\x69\x70","\x76\x69\x70\x45\x78\x70\x69\x72\x65\x54\x69\x6D\x65","\x76\x69\x70\x53\x74\x61\x74\x75\x73","\x76\x69\x70\x4C\x65\x76\x65\x6C","\x61\x6E\x63\x68\x6F\x72\x56\x69\x70\x49\x6E\x66\x6F","\x76\x69\x70\x49\x6E\x66\x6F","\x6C\x65\x76\x65\x6C","\x6D\x6F\x62\x69\x6C\x65\x4C\x61\x72\x67\x65\x4C\x6F\x67\x6F","\x68\x74\x74\x70\x73\x3A\x2F\x2F\x63\x64\x6E\x2D\x75\x70\x79\x75\x6E\x2D\x69\x6D\x61\x67\x65\x73\x2E\x64\x75\x73\x68\x75\x33\x36\x35\x2E\x63\x6F\x6D\x2F\x31\x36\x33\x34\x37\x34\x30\x31\x32\x30\x63\x66\x37\x62\x38\x66\x34\x65\x36\x38\x64\x39\x32\x66\x37\x63\x34\x36\x36\x39\x36\x66\x63\x30\x32\x37\x63\x31\x36\x38\x31\x63\x70\x36\x76\x65\x39\x61","\x6D\x6F\x62\x69\x6C\x65\x53\x6D\x61\x6C\x6C\x4C\x6F\x67\x6F","\x6D\x6F\x62\x69\x6C\x65\x4D\x69\x64\x64\x6C\x65\x4C\x6F\x67\x6F","\x73\x74\x72\x69\x6E\x67\x69\x66\x79","\x75\x73\x65\x72\x4E\x69\x63\x6B\x4E\x61\x6D\x65","\x75\x73\x65\x72\x49\x6E\x66\x6F","\x75\x73\x65\x72\x4C\x6F\x67\x6F\x50\x69\x63","\x65\x78\x70\x69\x72\x65\x44\x61\x74\x65","\x32\x39\x39\x39\x2D\x31\x32\x2D\x31\x32","\x65\x78\x70\x69\x72\x65\x44\x61\x79\x73","\x75\x73\x65\x72\x4C\x65\x76\x65\x6C","\x75\x73\x65\x72\x4C\x65\x76\x65\x6C\x49\x63\x6F\x6E","\x68\x74\x74\x70\x3A\x2F\x2F\x69\x6D\x61\x67\x65\x76\x32\x2E\x78\x6D\x63\x64\x6E\x2E\x63\x6F\x6D\x2F\x67\x72\x6F\x75\x70\x38\x37\x2F\x4D\x30\x39\x2F\x30\x41\x2F\x34\x45\x2F\x77\x4B\x67\x35\x49\x56\x38\x50\x77\x6A\x6D\x77\x35\x4D\x79\x33\x41\x41\x41\x53\x59\x62\x51\x61\x33\x39\x59\x37\x36\x38\x2E\x70\x6E\x67","\x72\x65\x63\x6F\x6D\x6D\x65\x6E\x64\x56\x69\x70\x50\x72\x6F\x64\x75\x63\x74","\x6D\x6F\x72\x65\x56\x69\x70\x43\x68\x61\x6E\x6E\x65\x6C\x73","\x6A\x6F\x69\x6E\x74\x56\x69\x70\x50\x72\x6F\x64\x75\x63\x74\x73","\x6C\x65\x6E\x67\x74\x68","\x6C\x69\x73\x74","\x74\x72\x61\x63\x6B\x73","\x69\x73\x46\x72\x65\x65","\x69\x73\x50\x61\x69\x64","\x61\x6C\x62\x75\x6D\x47\x75\x69\x64\x56\x69\x70\x52\x65\x73\x6F\x75\x72\x63\x65\x49\x6E\x66\x6F","\x6E\x69\x63\x6B\x4E\x61\x6D\x65","\x6D\x6F\x64\x75\x6C\x65\x73","\x67\x75\x69\x64\x65\x54\x65\x78\x74","\x74\x65\x78\x74","\x73\x75\x62\x54\x65\x78\x74","\x32\x39\x39\x39\x2D\x30\x39\x2D\x30\x39\u5230\u671F","\x6C\x65\x76\x65\x6C\x49\x63\x6F\x6E","\x61\x63\x74\x69\x6F\x6E\x54\x79\x70\x65","\x62\x75\x74\x74\x6F\x6E","\x62\x75\x74\x74\x6F\x6E\x49\x63\x6F\x6E","\x62\x75\x74\x74\x6F\x6E\x49\x6D\x61\x67\x65","\x69\x73\x41\x75\x74\x68\x6F\x72\x69\x7A\x65\x64"]; var body=$response[_0x3f67[0]]; var url=$request[_0x3f67[1]]; var obj=JSON[_0x3f67[2]](body); const p1=_0x3f67[3]; const p2=_0x3f67[4]; const p3=_0x3f67[5]; const p4=_0x3f67[6]; const p5=_0x3f67[7]; const p6=_0x3f67[8]; const p7=_0x3f67[9]; if(url[_0x3f67[10]](p1)!= -1) { obj[_0x3f67[12]][_0x3f67[11]]= _0x3f67[13];obj[_0x3f67[12]][_0x3f67[14]]= true;obj[_0x3f67[12]][_0x3f67[15]]= 32493834549000;obj[_0x3f67[12]][_0x3f67[16]]= 2;obj[_0x3f67[12]][_0x3f67[17]]= 5;obj[_0x3f67[12]][_0x3f67[18]][_0x3f67[14]]= true;obj[_0x3f67[12]][_0x3f67[19]][_0x3f67[14]]= true;obj[_0x3f67[12]][_0x3f67[19]][_0x3f67[20]]= 5;obj[_0x3f67[12]][_0x3f67[21]]= _0x3f67[22];obj[_0x3f67[12]][_0x3f67[23]]= _0x3f67[22];obj[_0x3f67[12]][_0x3f67[24]]= _0x3f67[22];body= JSON[_0x3f67[25]](obj) } if(url[_0x3f67[10]](p2)!= -1) { obj[_0x3f67[12]][_0x3f67[27]][_0x3f67[26]]= _0x3f67[13];obj[_0x3f67[12]][_0x3f67[27]][_0x3f67[28]]= _0x3f67[22];obj[_0x3f67[12]][_0x3f67[27]][_0x3f67[16]]= 2;obj[_0x3f67[12]][_0x3f67[27]][_0x3f67[29]]= _0x3f67[30];obj[_0x3f67[12]][_0x3f67[27]][_0x3f67[31]]= 9999999;obj[_0x3f67[12]][_0x3f67[27]][_0x3f67[32]]= 2;obj[_0x3f67[12]][_0x3f67[27]][_0x3f67[33]]= _0x3f67[34];delete obj[_0x3f67[12]][_0x3f67[35]]; delete obj[_0x3f67[12]][_0x3f67[36]]; delete obj[_0x3f67[12]][_0x3f67[37]]; body= JSON[_0x3f67[25]](obj) } if(url[_0x3f67[10]](p3)!= -1) { body= JSON[_0x3f67[25]](obj) } if(url[_0x3f67[10]](p4)!= -1) { for(var i=0;i< obj[_0x3f67[12]][_0x3f67[40]][_0x3f67[39]][_0x3f67[38]];i++) { obj[_0x3f67[12]][_0x3f67[40]][_0x3f67[39]][i][_0x3f67[41]]= true;obj[_0x3f67[12]][_0x3f67[40]][_0x3f67[39]][i][_0x3f67[42]]= false } delete obj[_0x3f67[12]][_0x3f67[43]]; body= JSON[_0x3f67[25]](obj) } if(url[_0x3f67[10]](p5)!= -1) { obj[_0x3f67[12]][_0x3f67[45]][0][_0x3f67[44]]= _0x3f67[13];delete obj[_0x3f67[12]][_0x3f67[45]][0][_0x3f67[46]]; obj[_0x3f67[12]][_0x3f67[45]][0][_0x3f67[48]][_0x3f67[47]]= _0x3f67[49];obj[_0x3f67[12]][_0x3f67[45]][0][_0x3f67[17]][_0x3f67[50]]= _0x3f67[34];delete obj[_0x3f67[12]][_0x3f67[45]][0][_0x3f67[52]][_0x3f67[51]]; delete obj[_0x3f67[12]][_0x3f67[45]][0][_0x3f67[52]][_0x3f67[53]]; delete obj[_0x3f67[12]][_0x3f67[45]][0][_0x3f67[52]][_0x3f67[54]]; obj[_0x3f67[12]][_0x3f67[16]]= 2;obj[_0x3f67[12]][_0x3f67[44]]= _0x3f67[13];body= JSON[_0x3f67[25]](obj) } if(url[_0x3f67[10]](p6)!= -1) { for(var i=0;i< obj[_0x3f67[12]][_0x3f67[39]][_0x3f67[38]];i++) { obj[_0x3f67[12]][_0x3f67[39]][i][_0x3f67[41]]= true;obj[_0x3f67[12]][_0x3f67[39]][i][_0x3f67[42]]= false } body= JSON[_0x3f67[25]](obj) } if(url[_0x3f67[10]](p7)!= -1) { obj[_0x3f67[12]][_0x3f67[55]]= true;body= JSON[_0x3f67[25]](obj) } $done({body})
+/*
+
+作者伟人q55749353
+
+[rewrite_local]
+
+^http[s]?:\/\/.+ximalaya.+(product/info|/mobile-user/v2/homePage|/vip/v1/recommand/ts|mobile-playpage/playpage/tabs|/mobile-album/album/page/ts|mobile/v1/album/track/ts|product/promotion/v./whole/album/\d+/price/dynamic/ts).*$ url script-response-body ximalaya.js
+
+[mitm]
+hostname= *xima*
+
+*/
+var body = $response.body;
+var url = $request.url;
+var obj = JSON.parse(body);
+
+const p1 = 'mobile-user/v2/homePage/';
+const p2 = 'business-vip-presale-core-web/product/info';
+const p3 = 'mobile-playpage/playpage/tabs';
+const p4 = 'mobile-album/album/page/ts';
+const p5 = 'vip/v1/recommand';
+const p6 = 'mobile/v1/album/track/ts'
+const p7 = 'price/dynamic/ts';
+//个人页面
+if (url.indexOf(p1) != -1) {
+    obj.data.nickname = "伟人破解";
+    obj.data.isVip = true;
+    obj.data.vipExpireTime = 32493834549000;
+    obj.data.vipStatus = 2;
+    obj.data.vipLevel = 5;
+    obj.data.anchorVipInfo.isVip = true;
+    obj.data.vipInfo.isVip = true;
+    obj.data.vipInfo.level = 5;
+    obj.data.mobileLargeLogo = "https://cdn-upyun-images.dushu365.com/1634740120cf7b8f4e68d92f7c46696fc027c1681cp6ve9a";
+    obj.data.mobileSmallLogo = "https://cdn-upyun-images.dushu365.com/1634740120cf7b8f4e68d92f7c46696fc027c1681cp6ve9a";
+    obj.data.mobileMiddleLogo = "https://cdn-upyun-images.dushu365.com/1634740120cf7b8f4e68d92f7c46696fc027c1681cp6ve9a";
+
+    body = JSON.stringify(obj);
+}
+
+
+//主页会员
+if (url.indexOf(p2) != -1) {
+    obj.data.userInfo.userNickName = "伟人破解";
+    obj.data.userInfo.userLogoPic = "https://cdn-upyun-images.dushu365.com/1634740120cf7b8f4e68d92f7c46696fc027c1681cp6ve9a";
+    obj.data.userInfo.vipStatus = 2;
+    obj.data.userInfo.expireDate = "2999-12-12";
+    obj.data.userInfo.expireDays = 9999999;
+    obj.data.userInfo.userLevel = 2;
+    obj.data.userInfo.userLevelIcon = "http://imagev2.xmcdn.com/group87/M09/0A/4E/wKg5IV8Pwjmw5My3AAASYbQa39Y768.png";
+    delete obj.data.recommendVipProduct;
+    delete obj.data.moreVipChannels;
+    delete obj.data.jointVipProducts;
+    
+    
+    body = JSON.stringify(obj);
+}
+//播放页面剩余时间
+if (url.indexOf(p3) != -1) {
+     //delete obj.data.playpage.promotionGuideInfo;
+    //obj.data.playpage.promotionGuideInfo.expireTime = 40926471150001;
+
+    //obj.data.playpage.promotionGuideInfo.paoPaoTipsInfo.albumTipsText = "伟人解锁";
+
+//obj.data.playpage.promotionGuideInfo.paoPaoTipsInfo.trackTipsText = "伟人解锁";
+
+    body = JSON.stringify(obj);
+}
+
+//播放列表改免费
+if (url.indexOf(p4) != -1) {
+    for (var i = 0; i < obj.data.tracks.list.length; i++) {
+        obj.data.tracks.list[i].isFree = true;
+        obj.data.tracks.list[i].isPaid = false;
+    }
+//删除底部开会员框架
+    delete obj.data.albumGuidVipResourceInfo;
+    body = JSON.stringify(obj);
+}
+//主界面会员
+if (url.indexOf(p5) != -1) {
+
+    obj.data.modules[0].nickName = "伟人破解";
+    delete obj.data.modules[0].guideText;
+    obj.data.modules[0].subText.text = "2999-09-09到期";
+    obj.data.modules[0].vipLevel.levelIcon = "http://imagev2.xmcdn.com/group87/M09/0A/4E/wKg5IV8Pwjmw5My3AAASYbQa39Y768.png!op_type=0&unlimited=0";
+    delete obj.data.modules[0].button.actionType;
+    delete obj.data.modules[0].button.buttonIcon;
+    delete obj.data.modules[0].button.buttonImage;
+    obj.data.vipStatus = 2;
+    obj.data.nickName = "伟人破解";
+
+    body = JSON.stringify(obj);
+}
+
+
+//播放列表改免费
+if (url.indexOf(p6) != -1) {
+    for (var i = 0; i < obj.data.list.length; i++) {
+        obj.data.list[i].isFree = true;
+        obj.data.list[i].isPaid = false;
+    }
+    
+    body = JSON.stringify(obj);
+}
+//删除底部购买框架
+if (url.indexOf(p7) != -1) {
+    obj.data.isAuthorized = true ;
+    body = JSON.stringify(obj);
+}
+$done({
+    body
+});
