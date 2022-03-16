@@ -80,6 +80,7 @@ if (url.indexOf(p4) != -1) {
 //主界面会员
 if (url.indexOf(p5) != -1) {
 
+    obj.data.modules[0].guideText = "伟人破解";
     obj.data.modules[0].nickName = "伟人破解";
     //delete obj.data.modules[0].guideText;
     obj.data.modules[0].subText.text = "2999-09-09到期";
