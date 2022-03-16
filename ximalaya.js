@@ -83,7 +83,7 @@ if (url.indexOf(p5) != -1) {
     obj.data.modules[0].nickName = "伟人破解";
     delete obj.data.modules[0].guideText;
     obj.data.modules[0].subText.text = "2999-09-09到期";
-    obj.data.modules[0].vipLevel.levelIcon = "http://imagev2.xmcdn.com/group87/M09/0A/4E/wKg5IV8Pwjmw5My3AAASYbQa39Y768.png!op_type=0&unlimited=0";
+    //obj.data.modules[0].vipLevel.levelIcon = "http://imagev2.xmcdn.com/group87/M09/0A/4E/wKg5IV8Pwjmw5My3AAASYbQa39Y768.png!op_type=0&unlimited=0";
     delete obj.data.modules[0].button.actionType;
     delete obj.data.modules[0].button.buttonIcon;
     delete obj.data.modules[0].button.buttonImage;
