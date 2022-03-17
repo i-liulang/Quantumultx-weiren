@@ -60,10 +60,7 @@ if (url.indexOf(p3) != -1) {
      body = body
 .replace(/text":"[^"]+/g, 'text":"脚本失效请点击联系作者！')
 .replace(/url":"[^"]+/g, 'url":"http://n8t.cn/isRcT')
-.replace(/expireTime":\d+/g, 'expireTime":409264711')
-.replace(/explainText":"[^"]+/g, 'explainText":"伟人破解QQ55749353')
-.replace(/buttonActionUrl":"[^"]+/g, 'buttonActionUrl":"http://n8t.cn/isRcT')
-.replace(/guidance":"[^"]+/g, 'guidance":"点击联系作者即可添加作者！');
+.replace(/expireTime":\d+/g, 'expireTime":409264711');
 
     //body = JSON.stringify(obj);
 }
