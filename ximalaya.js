@@ -1,3 +1,15 @@
+/*
+
+作者伟人q55749353
+
+[rewrite_local]
+
+^http[s]?:\/\/.+ximalaya.+(product/info|/mobile-user/v2/homePage|/vip/v1/recommand/ts|mobile-playpage/playpage/tabs|/mobile-album/album/page/ts|mobile/v1/album/track/ts|product/promotion/v./whole/album/\d+/price/dynamic/ts).*$ url script-response-body ximalaya.js
+
+[mitm]
+hostname= *xima*
+
+*/
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
@@ -45,8 +57,13 @@ if (url.indexOf(p2) != -1) {
 }
 //播放页面剩余时间
 if (url.indexOf(p3) != -1) {
-     body = body.replace(/text":"[^"]+/g, 'text":"联系作者！').replace(/url":"[^"]+/g, 'url":"http://n8t.cn/isRcT') ;
-$notify("喜马拉雅脚本注入成功！如果无效请点击联系作者获取最新脚本");
+     body = body
+.replace(/text":"[^"]+/g, 'text":"脚本失效请点击联系作者！')
+.replace(/url":"[^"]+/g, 'url":"http://n8t.cn/isRcT')
+.replace(/expireTime":\d+/g, 'expireTime":409264711')
+.replace(/explainText":"[^"]+/g, 'explainText":"伟人破解QQ55749353')
+.replace(/buttonActionUrl":"[^"]+/g, 'buttonActionUrl":"http://n8t.cn/isRcT')
+.replace(/guidance":"[^"]+/g, 'guidance":"点击联系作者即可添加作者！');
 
     //body = JSON.stringify(obj);
 }
@@ -56,35 +73,3 @@ if (url.indexOf(p4) != -1) {
     for (var i = 0; i < obj.data.tracks.list.length; i++) {
         obj.data.tracks.list[i].isFree = true;
         obj.data.tracks.list[i].isPaid = false;
-    }
-//删除底部开会员框架
-    delete obj.data.albumGuidVipResourceInfo;
-    body = JSON.stringify(obj);
-}
-//主界面会员
-if (url.indexOf(p5) != -1) {
-    delete obj.data.modules;
-    obj.data.vipStatus = 2;
-    obj.data.nickName = "伟人破解";
-
-    body = JSON.stringify(obj);
-}
-
-
-//播放列表改免费
-if (url.indexOf(p6) != -1) {
-    for (var i = 0; i < obj.data.list.length; i++) {
-        obj.data.list[i].isFree = true;
-        obj.data.list[i].isPaid = false;
-    }
-    
-    body = JSON.stringify(obj);
-}
-//删除底部购买框架
-if (url.indexOf(p7) != -1) {
-    obj.data.isAuthorized = true ;
-    body = JSON.stringify(obj);
-}
-$done({
-    body
-});
