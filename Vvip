@@ -23,7 +23,7 @@ hostname = app.bilibili.com, grpc.biliapi.net,*.biliapi.net,app.bilibili.com,api
 ^http[s]?:\/\/api.o2ting.com\/api\/V2.+(ListByIndex|Detail|user/GetUserInfo).json url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yqts.js
 
 #网易云音乐解锁vip
-^http[s]?:\/\/.+(player/url|playlist/).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/wyy.js
+^http[s]?:\/\/.+(player/url|playlist|_nmclfl).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/QuantumultX-weiren/main/wyy.js
 
 #喜马拉雅VIP
 ^http[s]?:\/\/((.+ximalaya.+)|(.+xmcdn.+))mobile-play.+$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xmly.js
