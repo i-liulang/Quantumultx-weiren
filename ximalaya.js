@@ -57,10 +57,7 @@ if (url.indexOf(p2) != -1) {
 }
 //播放页面剩余时间
 if (url.indexOf(p3) != -1) {
-     body = body
-.replace(/text":"[^"]+/g, 'text":"脚本失效请点击联系作者！')
-.replace(/url":"[^"]+/g, 'url":"http://n8t.cn/isRcT')
-.replace(/expireTime":\d+/g, 'expireTime":409264711');
+     body = body.replace(/text":"[^"]+/g, 'text":"脚本失效请点击联系作者！').replace(/url":"[^"]+/g, 'url":"http://n8t.cn/isRcT').replace(/expireTime":\d+/g, 'expireTime":409264711');
 
     //body = JSON.stringify(obj);
 }
