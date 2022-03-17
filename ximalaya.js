@@ -67,3 +67,40 @@ if (url.indexOf(p4) != -1) {
     for (var i = 0; i < obj.data.tracks.list.length; i++) {
         obj.data.tracks.list[i].isFree = true;
         obj.data.tracks.list[i].isPaid = false;
+}
+//删除底部开会员框架
+    delete obj.data.albumGuidVipResourceInfo;
+    body = JSON.stringify(obj);
+}
+//主界面会员
+if (url.indexOf(p5) != -1) {
+    obj.data.modules[0].nickName = "伟人破解";
+    delete obj.data.modules[0].guideText;
+    obj.data.modules[0].subText.text = "2999-09-09到期";
+    obj.data.modules[0].vipLevel.levelIcon = "http://audio.ali.xmcdn.com/group83/M00/AD/3D/wKg5I182B77S36SrAAADek0PZ8k23.webp";
+    delete obj.data.modules[0].button.actionType;
+    delete obj.data.modules[0].button.buttonIcon;
+    delete obj.data.modules[0].button.buttonImage;
+    obj.data.vipStatus = 2;
+    obj.data.nickName = "伟人破解";
+
+    body = JSON.stringify(obj);
+}
+
+//播放列表改免费
+if (url.indexOf(p6) != -1) {
+    for (var i = 0; i < obj.data.list.length; i++) {
+        obj.data.list[i].isFree = true;
+        obj.data.list[i].isPaid = false;
+    }
+    
+    body = JSON.stringify(obj);
+}
+//删除底部购买框架
+if (url.indexOf(p7) != -1) {
+    obj.data.isAuthorized = true ;
+    body = JSON.stringify(obj);
+}
+$done({
+    body
+});
