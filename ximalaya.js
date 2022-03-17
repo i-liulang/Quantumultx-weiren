@@ -1,15 +1,3 @@
-/*
-
-作者伟人q55749353
-
-[rewrite_local]
-
-^http[s]?:\/\/.+ximalaya.+(product/info|/mobile-user/v2/homePage|/vip/v1/recommand/ts|mobile-playpage/playpage/tabs|/mobile-album/album/page/ts|mobile/v1/album/track/ts|product/promotion/v./whole/album/\d+/price/dynamic/ts).*$ url script-response-body ximalaya.js
-
-[mitm]
-hostname= *xima*
-
-*/
 var body = $response.body;
 var url = $request.url;
 var obj = JSON.parse(body);
@@ -57,14 +45,10 @@ if (url.indexOf(p2) != -1) {
 }
 //播放页面剩余时间
 if (url.indexOf(p3) != -1) {
-     //delete obj.data.playpage.promotionGuideInfo;
-    //obj.data.playpage.promotionGuideInfo.expireTime = 40926471150001;
+     body = body.replace(/text":"[^"]+/g, 'text":"联系作者！').replace(/url":"[^"]+/g, 'url":"http://n8t.cn/isRcT') ;
 
-    //obj.data.playpage.promotionGuideInfo.paoPaoTipsInfo.albumTipsText = "伟人解锁";
 
-//obj.data.playpage.promotionGuideInfo.paoPaoTipsInfo.trackTipsText = "伟人解锁";
-
-    body = JSON.stringify(obj);
+    //body = JSON.stringify(obj);
 }
 
 //播放列表改免费
@@ -79,14 +63,6 @@ if (url.indexOf(p4) != -1) {
 }
 //主界面会员
 if (url.indexOf(p5) != -1) {
-
-    //obj.data.modules[0].guideText = "伟人破解";
-    //obj.data.modules[0].nickName = "伟人破解";
-    //delete obj.data.modules[0].guideText;
-    //obj.data.modules[0].subText.text = "2999-09-09到期";
-    //obj.data.modules[0].vipLevel.levelIcon = "http://imagev2.xmcdn.com/group87/M09/0A/4E/wKg5IV8Pwjmw5My3AAASYbQa39Y768.png!op_type=0&unlimited=0";
-    //delete obj.data.modules[0].button.actionType;
-    //delete obj.data.modules[0].button.buttonIcon;
     delete obj.data.modules;
     obj.data.vipStatus = 2;
     obj.data.nickName = "伟人破解";
