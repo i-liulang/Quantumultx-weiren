@@ -80,6 +80,9 @@ hostname = app.bilibili.com, grpc.biliapi.net,*.biliapi.net,app.bilibili.com,api
 
 
 ######----福利应用脚本----######
+#鲍鱼Tv [直接看会员] 下载地址- https://sserwe.cc:9701/#/?uid=39332813
+^http[s]?:\/\/[0-9.]+.(\w{2,8})?/api(/video/report_item?|/live/room/detail?|/video/related?|/video/detail).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/LSPP/main/baoyuhezi.js
+
 #91视频🚗 [会员解锁]下载地址- https://app.sbxcc.xyz/i-3NSNA9
 ^http[s]?:\/\/\w{1,6}\.((utsuu)|(weilaixushi)|(orientlion)|(qdjdswkj)|(0954auto)|(xmblgg))\.(com|cn)/\m_user\/info url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/91sp.js
 ^https?:\/\/.*\/common\/splash_config url reject-200
