@@ -16,7 +16,7 @@ hostname = *1*,*.bilibili.*, *.biliapi.*,*zhongxyj*,slf*,*qqc*,*invlock*,*txt202
 ^https:\/\/app\.bilibili\.com\/x\/(v2\/(splash\/(list|show)|feed\/index\?)|resource\/show\/tab\/v2) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/bqgg.js
 
 #樊登读书
-^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20220226VgxuNRtSTpDj8kPQQYg
+^http[s]?:\/\/.+dushu.+(v101/content|book/v100/info|/play/duration|/v100/index).*$ url request-body "token":"[^"]+ request-body "token":"20220601v83jpa3jUYEg1mlSMax
 ^http[s]?:\/\/.+dushu.+(v101|v100|program/v100)\/(content|play/duration|index|list|userInfo|vipInfo|info|ceiltip|mainList|getMarketInfoByType) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/fd.js
 
 #氧气听书
