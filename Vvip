@@ -81,14 +81,14 @@ hostname = *1*,*.bilibili.*, *.biliapi.*,*zhongxyj*,slf*,*qqc*,*invlock*,*txt202
 
 ######----福利应用脚本----######
 #鲍鱼Tv [直接看会员] 下载地址- https://sserwe.cc:9701/#/?uid=39332813
-^http[s]?:\/\/[0-9.]+.(\w{2,8})?/api(/video/report_item?|/live/room/detail?|/video/related?|/video/detail).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/LSPP/main/baoyuhezi.js
+#^http[s]?:\/\/[0-9.]+.(\w{2,8})?/api(/video/report_item?|/live/room/detail?|/video/related?|/video/detail).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/LSPP/main/baoyuhezi.js
 
 #91视频🚗 [会员解锁]下载地址- https://app.sbxcc.xyz/i-3NSNA9
-^http[s]?:\/\/\w{1,6}\.((utsuu)|(weilaixushi)|(orientlion)|(qdjdswkj)|(0954auto)|(xmblgg))\.(com|cn)/\m_user\/info url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/91sp.js
-^https?:\/\/.*\/common\/splash_config url reject-200
+#^http[s]?:\/\/\w{1,6}\.((utsuu)|(weilaixushi)|(orientlion)|(qdjdswkj)|(0954auto)|(xmblgg))\.(com|cn)/\m_user\/info url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/91sp.js
+#^https?:\/\/.*\/common\/splash_config url reject-200
  
 #麻豆传媒🚗 [初次打开开启圈叉即可] 下载地址- https://wqzzyil.com/?pc=RTWPK6DK
-^https:\/\/.+viqlwoqc.+\/api\/app\/login\/guest url request-body "devId":"[^"]+ request-body "devId":"61A28574-7319-463F-9A2F-F4E251270D15
+#^https:\/\/.+viqlwoqc.+\/api\/app\/login\/guest url request-body "devId":"[^"]+ request-body "devId":"61A28574-7319-463F-9A2F-F4E251270D15
 
 #色中色🚗[第一次打开开启圈叉打开，无效请选择二维码登陆随意二维码即可] 下载地址- https://styibv.one/?pc=QW4AYL
 ^https:\/\/.+ssiis.+api\/login\/guest url request-body "data":"[^"]+ request-body "data":"b+EXGBqPRl9JzdlW2dA+3kS2c1aJuM61l+rbEKnN+BrKhM9fUNHZS7Eh2u5WmYbEMW52TmHxmhcVmXF0RmSU9XTCL+uabNuXvziQGCh4FTPSpmFGn3ZhMIa/I0KwC1LZ6UnxvlTnDX67mD2LMIMfJ5Te0uoLxCm9wBR4xUGvx6cLdFlpn53jxAaLjlak8+nWI4gdCCbuLGqTTb5pTfLOO1vpLNpC0+3mAEd4VKBP7utHMBjVh6xJ3nLlRLK/dgPl0Q87GRHeT3h/3t4yfF5m+EGDxFaL8h74iVwE3m7f4hKkfy9qAZ2IF1HXbl3eBwSwweHCvfYN15C2sS8U/FPRvBx2wqlaTfHw4xVmTQOQtqA=
@@ -101,13 +101,13 @@ hostname = *1*,*.bilibili.*, *.biliapi.*,*zhongxyj*,slf*,*qqc*,*invlock*,*txt202
 ^http:\/\/api.ggmza.cn\/api\/user\/autoLogin url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ychi.js
 
 #69萝莉解锁会员🚗 [随意账号登陆直接看会员视频]下载地址- https://69luolic.com?us=IHSLEF
-^https:\/\/h5x\.(h|[0-9]+).+\.(com|me)\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-2-24%2015%3A8%3A27&data%5Bsign%5D=48ae7b2ee59fb7a5369ec7d7fe785dae&data%5Bdata%5D=hr4e46EXJvO2ak2bivdO3lgfhlQbYCcmf6Qd9KeVZz2PiN%2B%2F3UZF4P3IGmoHlBH%2BKb400PIfMhzfKWSiY7E6CA%3D%3D
+#^https:\/\/h5x\.(h|[0-9]+).+\.(com|me)\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-2-24%2015%3A8%3A27&data%5Bsign%5D=48ae7b2ee59fb7a5369ec7d7fe785dae&data%5Bdata%5D=hr4e46EXJvO2ak2bivdO3lgfhlQbYCcmf6Qd9KeVZz2PiN%2B%2F3UZF4P3IGmoHlBH%2BKb400PIfMhzfKWSiY7E6CA%3D%3D
 
 #69萌娘解锁会员🚗 [随意账号登陆直接看会员视频]下载地址- https://69luolia.com?us=7N94F5
-^http[s]?:\/\/h5x\.(cqcqygr|dppfjj|ddwknzj)\.(com|me)\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-2-24%208%3A25%3A43&data%5Bsign%5D=ead86ced78c380377b3b27daac333013&data%5Bdata%5D=hr4e46EXJvO2ak2bivdO3lgfhlQbYCcmf6Qd9KeVZz2PiN%2B%2F3UZF4P3IGmoHlBH%2BKb400PIfMhzfKWSiY7E6CA%3D%3D
+#^http[s]?:\/\/h5x\.(cqcqygr|dppfjj|ddwknzj)\.(com|me)\/h5\/login\/loginAccount url request-body .+ request-body data%5Bdevice%5D=h5&data%5Bversion%5D=1.0&data%5Btime%5D=2022-2-24%208%3A25%3A43&data%5Bsign%5D=ead86ced78c380377b3b27daac333013&data%5Bdata%5D=hr4e46EXJvO2ak2bivdO3lgfhlQbYCcmf6Qd9KeVZz2PiN%2B%2F3UZF4P3IGmoHlBH%2BKb400PIfMhzfKWSiY7E6CA%3D%3D
 
 #69短视频🚗  [随意账号登陆变成会员]下载地址- http://69dsp.tv/#/?invite=7XKCJD
-^https:\/\/.+member/api/user/login url request-body "signKey":"[^"]+ request-body "signKey":"5zTh8aDqzaLTF+1IEg+q4OF9ADaJOTpY045X1js89XjJ39BQgYC8OD7lRJy2p4LtXYJ6qStPL6YKvi2XhDK2tw==
+#^https:\/\/.+member/api/user/login url request-body "signKey":"[^"]+ request-body "signKey":"5zTh8aDqzaLTF+1IEg+q4OF9ADaJOTpY045X1js89XjJ39BQgYC8OD7lRJy2p4LtXYJ6qStPL6YKvi2XhDK2tw==
 
 #杏仁直播🚗 下载地址- https://www.65cc.vip/?channelCode=10095701
 ^http[s]?:\/\/.+((xingrend)|(xrzhuanxian)|(xrcz7812)|(xing)).+(livePayDeduct|/member/detail|/homeNotice|/message/banners|hot-data|/member/money|/deal|/pop_prop) url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xrzhibo.js
@@ -120,10 +120,10 @@ hostname = *1*,*.bilibili.*, *.biliapi.*,*zhongxyj*,slf*,*qqc*,*invlock*,*txt202
 ^http[s]?://kxbb\.zhongxyj\.com/api/movie/colllist.*$ url 302 https://kxbb.zhongxyj.com/api/movie/colllist/1/5000
 
 #汁乎视频🚗 [初次打开开启圈叉即可] 下载地址- http://otvjxcs.com/?pc=O3QN7Z89
-^http[s]?:\/\/.+(pejyyah|yieamnd|wldfnjh|yieamnd|qkjuyet).+\/api\/app\/login\/guest url request-body "devId":"[^"]+ request-body "devId":"E382D7DD-CCDD-4847-93B9-E1FE72CEA12F
+#^http[s]?:\/\/.+(pejyyah|yieamnd|wldfnjh|yieamnd|qkjuyet).+\/api\/app\/login\/guest url request-body "devId":"[^"]+ request-body "devId":"E382D7DD-CCDD-4847-93B9-E1FE72CEA12F
 
 #逼哩逼哩🚗 [初次打开开启圈叉即可] 下载地址- https://8wqsqbx.com/?pc=1GIHW2CY
-^https:\/\/(biliapi|bb|hnyoufan).+/api(/app|/h5app)/login/guest url request-body "devId":"[^"]+ request-body "devId":"37AD388E-62DA-4B0D-97F4-026FC9747C80
+#^https:\/\/(biliapi|bb|hnyoufan).+/api(/app|/h5app)/login/guest url request-body "devId":"[^"]+ request-body "devId":"37AD388E-62DA-4B0D-97F4-026FC9747C80
 
 #青青草🚗 [解锁会员] 下载地址- https://qqcyjs.me/?_s=CLK9
 ^http[s]?:\/\/qqc\w{2,6}\.(link|me|com|cn)/(cartoon|movie|book|person).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qqc.js
@@ -136,13 +136,17 @@ hostname = *1*,*.bilibili.*, *.biliapi.*,*zhongxyj*,slf*,*qqc*,*invlock*,*txt202
 ^http[s]?:\/\/.+((9aixuan)|(xsg)|(xianghezhaofang)|(liuxiaoyan123)|(heyihongmu)|(901clo)(tangnvshi)).+(com|cn|net)\/.+(User\/ucenter|/Get/notice|Get/appStartAdvert|/Get/videoInfo|/Picture/lists|Novel_story/novelChapter|/Get/indexData|Circle/getSlide|novel_story).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/yssp.js
 
 #雏鸟视频🚗 下载地址- [仅解锁会员播放]https://cn08.me
-^http[s]?:\/\/.+chuniao.+video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/chuniao.js
+#^http[s]?:\/\/.+chuniao.+video/info url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/chuniao.js
 
 #汤头条🚗 下载地址- http://aff.ttt001.net/af/a4KSt
 ^http:\/\/.+tbrapi.+\/api\.php\/api\/user\/userinfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/ttt.js
 
 #成人快手🚗下载地址-  
 ^http:\/\/.+ksapi.+\/v2\/user\/getBaseInfo url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/crks.js
+
+#熊猫视频🚗下载地址-http://2gm3.com/wx/rvpSh3/EsD6OW
+^http[s]?:\/\/api.ttqww.com//api/login/thirdInfoRegister.*$ url request-body .+ request-body device=f3e0e29edcd54f3cb205b07ddc10c5b0&downfrom=AppStore&imei=d94addaa452f53532d2a5e5fd9bc85ea5f7af901&invitation=&mark=1&model=iPhone&os=ios&sign=be7c7050ff8826b7f3712820e81fef34&time=1654001012951&unionid=f3e0e29edcd54f3cb205b07ddc10c5b0&user_ip=220.195.70.50&uuid=f3e0e29edcd54f3cb205b07ddc10c5b0&version=1.0.0
+^http[s]?:\/\/api.ttqww.com//api(/user/detail|/about/shanping|/home/notice|/home/video_detail).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xmsp.js
 
 #####
 ^http:\/\/.+/O2SysMedia/AdvertAudio/DearCustomer.mp3 url reject
