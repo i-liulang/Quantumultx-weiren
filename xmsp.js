@@ -7,8 +7,7 @@
 #熊猫视频🚗
 
 ^http[s]?:\/\/api.ttqww.com//api/login/thirdInfoRegister.*$ url request-body .+ request-body device=f3e0e29edcd54f3cb205b07ddc10c5b0&downfrom=AppStore&imei=d94addaa452f53532d2a5e5fd9bc85ea5f7af901&invitation=&mark=1&model=iPhone&os=ios&sign=be7c7050ff8826b7f3712820e81fef34&time=1654001012951&unionid=f3e0e29edcd54f3cb205b07ddc10c5b0&user_ip=220.195.70.50&uuid=f3e0e29edcd54f3cb205b07ddc10c5b0&version=1.0.0
-
-^http[s]?:\/\/api.ttqww.com//api(/user/detail|/about/shanping|/home/notice|/home/video_detail).*$ url script-response-body xmsp.js
+^http[s]?:\/\/api.ttqww.com//api(/user/detail|/about/shanping|/home/notice|/home/video_detail).*$ url script-response-body https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/xmsp.js
 
 
 [mitm]
