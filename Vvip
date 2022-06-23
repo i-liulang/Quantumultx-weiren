@@ -129,7 +129,7 @@ hostname = *ttqww*,*1*,*.bilibili.*, *.biliapi.*,*zhongxyj*,slf*,*qqc*,*invlock*
 ^http[s]?:\/\/qqc\w{2,6}\.(link|me|com|cn)/(cartoon|movie|book|person).*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/qqc.js
 
 #三更🚗 [解锁会员] 下载地址- https://go.foikuqk.cn:2096/18976301
-^https:\/\/.+(kaqcn|txt2021|invlock).+\/api/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/sang.js
+^https:\/\/.+(kaqcn|cbvac|txt2021|invlock).+\/api/.*$ url script-request-header https://raw.githubusercontent.com/WeiRen0/Quantumultx-weiren/main/sang.js
 ^http[s]?:\/\/.+/XSigner/xminc/app/useApp1.appId.\d+.token.*$ url reject-200
 
 #有色视频🚗 下载地址- ys37.cn
